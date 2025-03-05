@@ -1,0 +1,13 @@
+LOGOUT_BTN = "//button[text()='Logout']"
+ACCOUNT_NUMBER_SELECT = "//select[@id='accountSelect']"
+ACCOUNT_NUMBER = "(//div[contains(text(), 'Account Number')]//strong)[1]"
+ACCOUNT_BALANCE = "(//div[contains(text(), 'Account Number')]//strong)[2]"
+WITHDRAWL_BIG_BTN = "//button[contains(text(), 'Withdrawl')]"
+DEPOSIT_BIG_BTN = "//button[contains(text(), 'Deposit')]"
+TRANSACTIONS_BIG_BTN = "//button[contains(text(), 'Transactions')]"
+BACK_BTN = "//button[contains(text(), 'Back')]"
+RESET_BTN = "//button[contains(text(), 'Reset')]"
+
+ACTHION_MSG = "//span[@class='error ng-binding']"
+FIELD = "//input[@placeholder='amount']"
+ACTHION_BTN = "//button[@class='btn btn-default']"
